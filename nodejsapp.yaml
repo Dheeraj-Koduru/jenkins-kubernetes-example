@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "dheeraj0402/dheeraj-push:jkube"
+        image: "dheeraj0402/docker-push:latest"
         ports:
           - containerPort: 3000
 ---
